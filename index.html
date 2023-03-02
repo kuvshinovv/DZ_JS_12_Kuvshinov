@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/39d9b5c200.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+    <!-- Создание медиа плеера
+    Создать файл index.html
+    Создать папку img в которую загрузить изображение кнопок play, pause
+    Скачать произвольное видео из интернета
+    Добавить Тег видео в html
+    Продумать внешний вид progress и volume
+    Продумать время проигрывателя
+    Реализовать функционал своего собственного видео-плеера
+    Скачать все картинки (найти макет по желанию)
+    Добавляете html добавляете все элементы для управления видео
+    Реализуем кнопки play, pause
+    время и ползунки 
+    Собираем внешний вид -->
+    
+<!-- 
+
+<video class="videomult" src="./img/TomandJerry.mkv" controls></video>
+
+<script>
+    const video = document.querySelector('.videomult');
+
+</script> -->
+
+
+<div class="content">
+    <div class="player">
+        <video class="video"   preload="auto" ></video>
+        <div class="timelineBar">
+            <input type="range" class="timeline" value="0" step="0.001">
+        </div>
+        
+    </div>
+    <div class="controls">
+        <i class="fas fa-play"></i>
+        <i class="fas fa-pause"></i>
+        <i class="fas fa-stop"></i>
+        <i class="fas fa-backward"></i>
+        <i class="fas fa-forward"></i>
+        <input type="range" class="volume" value="0.01" max="1" step="0.01">
+    </div>
+    <div class="currentT">
+        <span class="CURRENT_TIME">0</span>
+    </div>
+    <div class="durT">
+        <span class="durationALL">0</span>
+    </div>
+</div>
+
+<script src="./data.js"></script>
+<script src="./script.js"></script>
+
+
+
+
+</body>
+</html>

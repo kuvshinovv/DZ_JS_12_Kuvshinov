@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    position: relative;
+}
+
+.video{
+    width: 500px;
+}
+
+/* .controls:hover{
+    display: block;
+} */
+
+
+.player{
+    width: 500px;
+}
+
+.timeline {
+    position: absolute;
+    top: 240px;
+    left: 10px;
+    height: 5px;
+    width: 70%;
+    background-color: #3c5b75;
+    text-shadow: 0.2em 0.2em 5px rgba(0, 0, 0, 1);
+}
+
+.fa-play{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 255px;
+    left: 170px;
+    width: 16px;
+    height: 16px;
+    text-shadow: 0.2em 0.2em 5px rgba(0, 0, 0, 1);
+}
+
+.fa-pause{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 255px;
+    left: 210px;
+    width: 16px;
+    height: 16px;
+    text-shadow: 0.2em 0.2em 5px rgba(0, 0, 0, 1);
+}
+.fa-forward{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 255px;
+    left: 300px;
+    width: 16px;
+    height: 16px;
+    text-shadow: 0.2em 0.2em 5px rgba(0, 0, 0, 1);
+}
+.fa-backward{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 255px;
+    left: 120px;
+    width: 16px;
+    height: 16px;
+    text-shadow: 0.2em 0.2em 5px rgba(0, 0, 0, 1);
+}
+
+.fa-stop{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 255px;
+    left: 255px;
+    width: 16px;
+    height: 16px;
+    text-shadow: 0.2em 0.2em 5px rgba(0, 0, 0, 1);
+}
+
+.CURRENT_TIME{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 233px;
+    left: 15px;
+    width: 150px;
+    text-shadow: 0.1em 0.1em 2px rgba(0, 0, 0, 1);
+}
+
+.durationALL{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 233px;
+    left: 430px;
+    width: 150px;
+    text-shadow: 0.1em 0.1em 2px rgba(0, 0, 0, 1);
+}
+
+.volume{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 255px;
+    left: 340px;
+    text-shadow: 0.2em 0.2em 5px rgba(0, 0, 0, 1);
+}
+
+
+.timelineBar {
+    position: absolute;
+    
+    width: 500px;
+    z-index: 1;
+    top:0px;
+    left: 60px;
+    text-shadow: 0.2em 0.2em 5px rgba(0, 0, 0, 1);
+}
+
+.videoPlayListitems{
+    width: 150px;
+}
+
+.PlayList{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
